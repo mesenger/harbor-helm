@@ -25,9 +25,9 @@ helm:
 
   # Custom values that will be passed as values.yaml to the installation
   values:
-    externalURL: https://a29a25e3b23c.mylabserver.com
+    externalURL: https://a29a25e3b21c.mylabserver.com
     expose:
       ingress:
         hosts:
-          core: a29a25e3b23c.mylabserver.com
+          core: a29a25e3b21c.mylabserver.com
         className: "traefik"
